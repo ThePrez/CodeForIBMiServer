@@ -17,6 +17,11 @@ public class CodeForiServer {
             System.out.println("Build time: " + Version.s_compileDateTime);
             System.exit(0);
         }
+
+        if (args.remove("--server")) {
+            
+        }
+
         try {
             final SystemConnection conn = new SystemConnection();
             String testFile = System.getProperty("test.file", "");

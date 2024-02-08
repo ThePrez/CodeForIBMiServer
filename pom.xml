@@ -166,11 +166,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.5.6</version>
+        </dependency>
+        <dependency>
             <groupId>net.sf.jt400</groupId>
             <artifactId>jt400</artifactId>
             <version>11.2</version>
             <!-- comment the <scope> tag for local development -->
-            <scope>provided</scope>
+            <!-- <scope>provided</scope> -->
         </dependency>
         <!-- <dependency>
             <groupId>org.json</groupId>
